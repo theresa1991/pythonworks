@@ -13,13 +13,22 @@ st2={4,5,6,7,8}
 #failed_st=["ram","ravi","hari"]
 #diff_st=set(students).difference(set(failed_st))
 #print(diff_st)
-laptop={"name":"hp","memory":"32gb","storage":"256GB","display":"13.3inch"}
-print(laptop["name"])
-print(laptop["storage"])
-print(laptop["memory"])
-print(laptop["display"])
-print("CPU"in laptop)
-laptop["cpu"]="intel i5"
-print(laptop)
-laptop["name"]="dell"
-print(laptop)
+#laptop={"name":"hp","memory":"32gb","storage":"256GB","display":"13.3inch"}
+#print(laptop["name"])
+#print(laptop["storage"])
+#print(laptop["memory"])
+#print(laptop["display"])
+#print("CPU"in laptop)
+#laptop["cpu"]="intel i5"
+#print(laptop)
+#laptop["name"]="dell"
+#print(laptop)
+bank_acct={"accno":10001,"pname":"priya","type":"savings","balance":35000}
+print(bank_acct["accno"])
+print(bank_acct["pname"])
+print("ifsc" in bank_acct)
+bank_acct["ifsc"]=123456789
+print(bank_acct)
+print(bank_acct["ifsc"])
+bank_acct["balance"]=bank_acct["balance"]+35000
+print(bank_acct["balance"])
