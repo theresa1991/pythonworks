@@ -1,0 +1,4 @@
+a11,samsung,34000,4g,oled
+a55,motorola,23000,4g,lcd
+a23,honor,18000,5g,led
+i10,iphone,57000,5g,led

@@ -1,0 +1,17 @@
+
+movie=open("movies.txt")
+mov_2022=[mov for mov in movies if mov[1]=="2022"]
+print(mov_2022)
+
+# number of moviews released in 2022
+
+
+
+# number malayalam movies
+
+# theater released movies
+
+# list of movies whose rating > 5
+
+# {2022:,4,2021:6,2020:2}
+# 2021
